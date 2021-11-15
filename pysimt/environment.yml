@@ -1,0 +1,17 @@
+name: pysimt
+
+dependencies:
+  - python=3.7
+  - pip
+  - ipython
+  - pyyaml
+  - numpy
+  - tensorboard
+  - tabulate
+  - tqdm
+  - pip:
+    - torch==1.7.0
+    - sacrebleu>=1.4.13
+    - subword_nmt
+    - editdistance==0.5.3
+    - -e .
