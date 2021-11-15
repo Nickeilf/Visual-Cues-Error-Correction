@@ -1,0 +1,5 @@
+GPUID=$1
+
+# CUDA_VISIBLE_DEVICES=$GPUID nmtpy train -C $2
+
+CUDA_VISIBLE_DEVICES=$GPUID pysimt train -C $2
